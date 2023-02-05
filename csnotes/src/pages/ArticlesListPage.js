@@ -1,5 +1,19 @@
+import articles from "./article-content";
+import { Link } from "react-router-dom";
+
+
 const ArticlesList = () =>{
-    return <h1>This is the ArticlesList page.</h1>
+    return (
+        <>
+        <h1>Articles</h1>
+        {articles.map(article =>(
+            <Link key={article.name} className="article-list-item" to={`/articles/${article.name}`}>
+                <h3>{article.title}</h3>
+                <p>{article.content[0].substring(0,140)}...</p>
+            </Link>
+        ))}
+    </>
+    );
 }
 
 export default ArticlesList;
