@@ -1,18 +1,20 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './NavBar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ArticlesPage from './pages/ArticlesPage';
 import ArticlesList from './pages/ArticlesListPage';
-import NotFound from './pages/NotFoundPage';
+// import NotFound from './pages/NotFoundPage';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>
-          Cyber Security Notes
-        </h1>
+        <NavBar></NavBar>
+           
+          
+         
         <div id="page-body">
           <Routes>
             <Route path="/" element={<HomePage />}/>
