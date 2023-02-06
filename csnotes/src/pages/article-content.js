@@ -36,6 +36,12 @@ const articles = [
         content: [
             `Compare and contrast basic concepts of cryptography or implement public key infrastructure`,
         ]
+    },{
+        name: 'study-guide',
+        title: 'Notes Summary/ Study Guide:',
+        content: [
+            `https://studylib.net/doc/25886084/professor-messer-sy0-601-comptia-security-plus-course-not...`,
+        ]
     },
 ];
 
