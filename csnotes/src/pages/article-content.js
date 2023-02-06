@@ -1,23 +1,40 @@
 const articles = [
     {
-        name: 'learn-react',
-        title: 'The Fastest Way to Learn React',
+        name: 'threats-attacks-vuln',
+        title: 'Threats, Attacks and Vulnerabilities:',
         content: [
-            `React just do it. Put your mind to it.`,
+            ` Analyze indicators of compromise and determine types of malware or compare and contrast types of attacks`,
         ]
     }, {
-        name: 'learn-node',
-        title: 'How to Build a Node Server in 10 Minutes',
+        name: 'access-management',
+        title: 'Identity and Access Management:',
         content: [
-            `In this article, we're going to be talking looking at a very quick way
-            to set up a Node.js server. `,
+            `Implement identity and access management controls or differentiate common account management practices `,
         ]
     }, {
-        name: 'mongodb',
-        title: 'Learn MongoDB',
+        name: 'technologies-tools:',
+        title: 'Technologies and Tools:',
         content: [
-            `Praise the MonGod.
+            `Troubleshoot common security issues or deploy mobile devices securely
             `,
+        ]
+    }, {
+        name: 'risk-management',
+        title: 'Risk Management:',
+        content: [
+            `Explain the importance of policies, plans and procedures related to organizational security`,
+        ]
+    }, {
+        name: 'architecture-design',
+        title: 'Architecture and design:',
+        content: [
+            `Summarize secure application development, deployment, cloud and virtualization concepts`,
+        ]
+    }, {
+        name: 'cryptography-pki',
+        title: 'Cryptography and PKI:',
+        content: [
+            `Compare and contrast basic concepts of cryptography or implement public key infrastructure`,
         ]
     },
 ];
